@@ -1,9 +1,6 @@
 #ifndef S21_CPP_MATRIX_H
 #define S21_CPP_MATRIX_H
 
-#include <cmath>
-#include <iostream>
-
 class S21Matrix {
  public:
   // Constructors

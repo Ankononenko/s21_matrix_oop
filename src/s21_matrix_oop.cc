@@ -1,5 +1,7 @@
 #include "s21_matrix_oop.h"
 
+#include <cmath>
+
 #include "s21_exception_handling.h"
 
 // Constructors:
@@ -196,7 +198,7 @@ S21Matrix S21Matrix::operator*(const double number) const noexcept {
 }
 
 bool S21Matrix::operator==(const S21Matrix& right) const noexcept {
-  return this->EqMatrix(right);
+  return EqMatrix(right);
 }
 
 S21Matrix& S21Matrix::operator+=(const S21Matrix& right) {
